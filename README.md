@@ -46,8 +46,31 @@ RabbitMQ detail in config/rabbitmq.php
 INSTALLATION
 ------------
 
+Docker
+------
+
+run 
+    composer install
+    
+    docker-compose up --build
+
+once the docker is build, connect to docker container by
+
+    docker-compose exec app /bin/bash
+
+In docker container
+    cd /var/www/html/transcoder
+    supervisord -c supervisord.conf
+
+The curl url is localhost:5080
+
+
+Manual
+------
+
+Install ffmpeg, rabbitmq
+
 Clone this repository
 
 run 
-
     composer install
