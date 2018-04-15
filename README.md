@@ -57,6 +57,7 @@ once the docker is build, connect to docker container by
     docker-compose exec app /bin/bash
 
 In docker container
+
     cd /var/www/html/transcoder
     supervisord -c supervisord.conf
 
