@@ -2,8 +2,6 @@ VideoTranscoder PHP Yii2, ffmpeg, rabbitmq, AWS s3(optional)
 
 VideoTranscoder convert video to mp4 format and generate a thumbnail.
 
-You neeed to install ffmpeg and rabbitmq.
-
 
 CURL STRUCTURE
 -------------------
