@@ -47,9 +47,9 @@ INSTALLATION
 Docker
 ------
 
-run 
+run
+
     composer install
-    
     docker-compose up --build
 
 once the docker is build, connect to docker container by
